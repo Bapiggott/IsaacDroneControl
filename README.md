@@ -100,19 +100,39 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
 
 ### Directions to Run the Project
 
-1. **Initialize the PX4 Simulation Environment:**
-   Start the PX4 simulator.
-
-2. **Launch the Drone Control Script:**
-   Navigate to the project directory and run:
+1. **Start QGroundControl:**
+   Make the AppImage executable:
    ```bash
-   python main.py
+   chmod +x ./QGroundControl.AppImage
+   ```
+   Execute QGroundControl by running:
+   ```bash
+   ./QGroundControl.AppImage
    ```
 
-3. **Provide Natural Language Commands:**
+2. **Run IsaacSim Environment with Pegasus:**
+   Use the following command to integrate IsaacSim with Pegasus:
+   ```bash
+   ISAACSIM_PYTHON examples/4_python_single_vehicle.py
+   ```
+
+3. **Start System Components:**
+   Run the shell command to start the required components:
+   ```bash
+   ./start_system.sh --components=image_server,ollama_llm_server,ui_prompt --default=all
+   ```
+   This will:
+   - Start the Image Server.
+   - Launch the Ollama LLM Server.
+   - Initialize the UI for user prompts.
+
+4. **Access the User Interface:**
+   Open a web browser and navigate to the specified port (e.g., `http://localhost:8080`) to access the UI 
+
+5. **Provide Natural Language Commands:**
    Use the interface to input commands (e.g., "survey area" or "capture images of an object").
 
-4. **Analyze Mission Data:**
+6. **Analyze Mission Data:**
    Output data will be saved in mission-specific directories within the project folder.
 
 ---
