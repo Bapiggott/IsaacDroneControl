@@ -41,7 +41,6 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
 ---
 
 ## Installation.md
-
 ### Installation Guide
 
 1. **Clone the Repository:**
@@ -56,14 +55,44 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
    pip install -r requirements.txt
    ```
 
-3. **Set Up PX4 Environment:**
-   Follow the official [PX4 setup instructions](https://docs.px4.io/main/en/).
+3. **Install Omniverse Launcher:**
+   Download the Omniverse Launcher:
+   ```bash
+   wget https://install.launcher.omniverse.nvidia.com/installers/omniverse-launcher-linux.AppImage
+   chmod +x omniverse-launcher-linux.AppImage
+   ./omniverse-launcher-linux.AppImage
+   ```
 
-4. **Install NVIDIA ISAAC SIM:**
-   Download and configure NVIDIA ISAAC SIM for sensor simulation.
+4. **Install ROS 2 Humble:**
+   Follow the official [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 
-5. **Verify Setup:**
+5. **Install NVIDIA ISAAC SIM:**
+   Follow the official [ISAAC SIM Installation Guide](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html).
+
+6. **Update Bash Configuration:**
+   Add the following lines to your `~/.bashrc` or `~/.zshrc` file:
+   ```bash
+   # Isaac Sim root directory
+   export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac_sim-4.2.0"
+   # Isaac Sim python executable
+   alias ISAACSIM_PYTHON="${ISAACSIM_PATH}/python.sh"
+   # Isaac Sim app
+   alias ISAACSIM="${ISAACSIM_PATH}/isaac-sim.sh"
+   ```
+   Reload the shell configuration:
+   ```bash
+   source ~/.bashrc
+   ```
+
+7. **Install Pegasus Simulator:**
+   Follow the [Pegasus Simulator Installation Guide](https://pegasussimulator.github.io/PegasusSimulator/source/setup/installation.html#installing-the-pegasus-simulator).
+
+8. **Install QGroundControl:**
+   Download and install [QGroundControl](https://qgroundcontrol.com/).
+
+9. **Verify Setup:**
    Confirm all dependencies and software are correctly installed.
+
 
 ---
 
