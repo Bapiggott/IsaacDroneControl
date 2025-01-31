@@ -22,9 +22,9 @@ The system architecture involves several interconnected components working toget
 - **Execution Layer:** Converts processed commands into PX4-compatible instructions and executes them.
 - **Feedback Loop:** Collects and processes data from sensors to refine ongoing operations.
 
-![System Architecture](path/to/system_architecture_diagram.png)
+[//]: # "![System Architecture](path/to/system_architecture_diagram.png)
 
-Refer to the diagram above for a visual representation of the system.
+Refer to the diagram above for a visual representation of the system."
 
 ### Installation
 For detailed setup instructions, refer to the [Installation Guide](installation.md).
