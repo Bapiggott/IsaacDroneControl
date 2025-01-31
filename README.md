@@ -13,6 +13,17 @@ This project focuses on developing a natural language-controlled drone system th
 
 The system translates natural language instructions into mission commands that enable autonomous drone operation. Users can either define complete missions or utilize a real-time control setup for flexibility.
 
+### Table of Contents
+
+- [Overview](#overview)
+- [System Architecture](#system-architecture)
+- [Installation Guide](#Installation-Guide)
+- [Directions to Run the Project](#Directions-to-Run-the-Project)
+- [Output and Results](#Output-andpresults)
+- [Expected Results](#Expected-Results)
+- [Troubleshooting](#Troubleshooting)
+
+
 ### System Architecture
 The system architecture involves several interconnected components working together:
 
@@ -26,8 +37,8 @@ The system architecture involves several interconnected components working toget
 
 Refer to the diagram above for a visual representation of the system.-->
 
-### Installation
-<!--# For detailed setup instructions, refer to the [Installation Guide](installation.md).
+<!--### Installation
+# For detailed setup instructions, refer to the [Installation Guide](installation.md).
 
 ### Running the Project
 Instructions for executing the project are available in the [Directions to Run](directions.md).
