@@ -22,12 +22,12 @@ The system architecture involves several interconnected components working toget
 - **Execution Layer:** Converts processed commands into PX4-compatible instructions and executes them.
 - **Feedback Loop:** Collects and processes data from sensors to refine ongoing operations.
 
-[//]: # "![System Architecture](path/to/system_architecture_diagram.png)
+<!--# ![System Architecture](path/to/system_architecture_diagram.png)
 
-Refer to the diagram above for a visual representation of the system."
+Refer to the diagram above for a visual representation of the system.-->
 
 ### Installation
-For detailed setup instructions, refer to the [Installation Guide](installation.md).
+<!--# For detailed setup instructions, refer to the [Installation Guide](installation.md).
 
 ### Running the Project
 Instructions for executing the project are available in the [Directions to Run](directions.md).
@@ -36,11 +36,10 @@ Instructions for executing the project are available in the [Directions to Run](
 Refer to the [Output and Results](output.md) for details on outputs and expected outcomes.
 
 ### Future Work
-Enhancements to Minispec code generation, sensor optimization, and real-time control functionalities are planned for future releases.
+Enhancements to Minispec code generation, sensor optimization, and real-time control functionalities are planned for future releases.-->
 
 ---
 
-## Installation.md
 ### Installation Guide
 
 1. **Clone the Repository:**
@@ -96,7 +95,6 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
 
 ---
 
-## Directions.md
 
 ### Directions to Run the Project
 
@@ -136,8 +134,6 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
    Output data will be saved in mission-specific directories within the project folder.
 
 ---
-
-## Output.md
 
 ### Output and Results
 
