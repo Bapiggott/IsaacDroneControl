@@ -162,7 +162,7 @@ The output is organized into mission-specific directories containing:
 3. **Minispec Code:**
    Translations of natural language commands into Minispec and Python commands for execution.
 
-### Example: Loading Depth Coordinates
+# Example: Loading Depth Coordinates
 ```python
 import numpy as np
 
