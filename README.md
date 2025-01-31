@@ -1,8 +1,6 @@
 # LLM Agent for Drone Control
 
-## Main README.md
-
-### Project Overview
+## Project Overview
 This project focuses on developing a natural language-controlled drone system that minimizes human intervention. The system allows users to command a PX4 drone via natural language prompts, integrating various technologies:
 
 - **Large Language Models (LLMs)** for interpreting user commands.
@@ -13,7 +11,7 @@ This project focuses on developing a natural language-controlled drone system th
 
 The system translates natural language instructions into mission commands that enable autonomous drone operation. Users can either define complete missions or utilize a real-time control setup for flexibility.
 
-### Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
@@ -24,7 +22,7 @@ The system translates natural language instructions into mission commands that e
 - [Troubleshooting](#Troubleshooting)
 
 
-### System Architecture
+## System Architecture
 The system architecture involves several interconnected components working together:
 
 - **User Input Layer:** Receives natural language commands from the user.
@@ -51,7 +49,7 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
 
 ---
 
-### Installation Guide
+## Installation Guide
 
 1. **Clone the Repository:**
    ```bash
@@ -107,7 +105,7 @@ Enhancements to Minispec code generation, sensor optimization, and real-time con
 ---
 
 
-### Directions to Run the Project
+## Directions to Run the Project
 
 1. **Start QGroundControl:**
    Make the AppImage executable:
@@ -162,7 +160,7 @@ The output is organized into mission-specific directories containing:
 3. **Minispec Code:**
    Translations of natural language commands into Minispec and Python commands for execution.
 
-# Example: Loading Depth Coordinates
+### Example: Loading Depth Coordinates
 ```python
 import numpy as np
 
@@ -172,12 +170,12 @@ print("Data shape:", depth_with_coordinates.shape)
 print(depth_with_coordinates)
 ```
 
-### Expected Results
+## Expected Results
 - **Depth Data:** Displays accurate depth estimations.
 - **Mission Logs:** Visualized using [PX4 Log Analysis Tool](https://logs.px4.io/).
 - **Object Detection:** JSON files contain detection details for mission objects.
 
-### Troubleshooting
+## Troubleshooting
 - Ensure all dependencies are installed correctly.
 - Verify the PX4 simulation environment is running.
 - Check log files in `logs/` for errors.
