@@ -81,6 +81,7 @@ graph LR;
     </ul>
   </div>
 </div>
+
 ---
 
 ## 🛠️ Installation Guide
@@ -117,6 +118,7 @@ chmod +x omniverse-launcher-linux.AppImage
 Confirm all dependencies and software are correctly installed.
 
 ---
+
 ## 🚀 Directions to Run the Project
 
 ### Command-Line Arguments
@@ -140,11 +142,6 @@ ISAACSIM_PYTHON isaac_sim_world.py
 ```
 
 #### Start All Components
-```bash
-python3 start_system.py --components=all
-```
-
-or
 
 ```bash
 python3 start_system.py -c all
@@ -154,12 +151,6 @@ python3 start_system.py -c all
 To start only specific components like QGroundControl and the Image Server:
 ```bash
 python3 start_system.py --components=qgroundcontrol,image_server
-```
-
-or
-
-```bash
-python3 start_system.py -c qgroundcontrol,image_server
 ```
 
 ### Access the User Interface
