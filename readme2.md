@@ -20,16 +20,18 @@
 
 <details>
   <summary>🔍 Click to Expand</summary>
+
 1. [🌟 Project Overview](#-project-overview)
 2. [📐 System Architecture](#-system-architecture)
-3. [🛠️ Installation Guide](#%EF%B8%8F-installation-guide)
-4. [🚀 Directions to Run the Project](#-directions-to-run-the-project)
-5. [🎯 Expected Results](#-expected-results)
-6. [🔍 Troubleshooting](#-troubleshooting)
-7. [🎥 Demo Video](#-demo-video)
-8. [👨‍💻 Contributors](#-contributors)
-9. [📜 License](#-license)
-<details>
+3. [🛠️ Installation Guide](#installation-guide)
+4. [🚀 Directions to Run the Project](#directions-to-run-the-project)
+5. [🎯 Expected Results](#expected-results)
+6. [🔍 Troubleshooting](#troubleshooting)
+7. [🎥 Demo Video](#demo-video)
+8. [👨‍💻 Contributors](#contributors)
+9. [📜 License](#license)
+
+</details>
   
 ---
 
