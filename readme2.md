@@ -76,13 +76,16 @@ chmod +x omniverse-launcher-linux.AppImage
 ```
 
 ### 4. Install ROS 2 Humble
-Follow the official [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
+🤖 Install ROS 2 Humble for seamless robot operating system integration.
+📌 Follow the official [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for step-by-step instructions.
 
 ### 5. Install NVIDIA ISAAC SIM
-Follow the official [ISAAC SIM Installation Guide](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html).
+🎮 Set up NVIDIA ISAAC SIM to simulate realistic drone environments.
+📌 Follow the official [ISAAC SIM Installation Guide](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html) to get started.
 
 ### 6. Install Pegasus Simulator
-Follow the [Pegasus Simulator Installation Guide](https://pegasussimulator.github.io/PegasusSimulator/source/setup/installation.html#installing-the-pegasus-simulator).
+✈️ Configure the Pegasus Simulator for high-fidelity drone flight simulations.
+📌 Follow the [Pegasus Simulator Installation Guide](https://pegasussimulator.github.io/PegasusSimulator/source/setup/installation.html#installing-the-pegasus-simulator) to install and configure Pegasus.
 
 ### 7. Verify Setup
 Confirm all dependencies and software are correctly installed.
