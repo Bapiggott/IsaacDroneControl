@@ -59,16 +59,14 @@ The system architecture involves several interconnected components working seaml
 <br clear="left">
 
 <div align="left" width="400" style="margin-right: 20px; margin-bottom: 10px;">
-  <div style="flex: 0.5;">
-  <div style="flex: 0.5;">
-
-```mermaid
-graph TD;
-  A[User Command] -->|Processed by LLM| B[LLM Module];
-  B -->|Generates Tasks| C[Data Integration];
-  C -->|Sends Instructions| D[PX4 Controller];
-  D -->|Executes Drone Actions| E[Flight Feedback Loop];
-```
+   
+    ```mermaid
+    graph TD;
+      A[User Command] -->|Processed by LLM| B[LLM Module];
+      B -->|Generates Tasks| C[Data Integration];
+      C -->|Sends Instructions| D[PX4 Controller];
+      D -->|Executes Drone Actions| E[Flight Feedback Loop];
+    ```
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <p>The system architecture involves several interconnected components working seamlessly together:</p>
