@@ -1,13 +1,25 @@
 # LLM Agent for Drone Control
 
-![Drone Control Banner](https://via.placeholder.com/1500x400.png?text=LLM+Agent+for+Drone+Control)
-
 [![PX4-Autopilot 1.14.3](https://img.shields.io/badge/PX4-Autopilot--1.14.3-green.svg)](https://docs.px4.io/main/en/releases/1.14.html)
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
 [![Ros2](https://img.shields.io/badge/Ros2-Humble-violet.svg)](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 [![QGroundControl](https://img.shields.io/badge/QGroundControl-v4.4.3-yellow.svg)](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/quick_start.html)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/22.04/)
+
+---
+
+## 📜 Table of Contents
+
+1. [🌟 Project Overview](#-project-overview)
+2. [📐 System Architecture](#-system-architecture)
+3. [🛠️ Installation Guide](#%EF%B8%8F-installation-guide)
+4. [🚀 Directions to Run the Project](#-directions-to-run-the-project)
+5. [🎯 Expected Results](#-expected-results)
+6. [🔍 Troubleshooting](#-troubleshooting)
+7. [🎥 Demo Video](#-demo-video)
+8. [👨‍💻 Contributors](#-contributors)
+9. [📜 License](#-license)
 
 ---
 
@@ -131,13 +143,11 @@ Output data is saved in mission-specific directories within the project folder.
 ## 👨‍💻 Contributors
 
 - **Brett Piggott** - [GitHub](https://github.com/Bapiggott)
-- **The rest of Our Team..."
 
 ---
 
 ## 📜 License
 
-This project is licensed under.. 
-<!-- the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-<![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)-->
+![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)
