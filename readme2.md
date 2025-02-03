@@ -153,13 +153,17 @@ To start only specific components like QGroundControl and the Image Server:
 ```bash
 python3 start_system.py --components=qgroundcontrol,image_server
 ```
+### Access the User Interface  
+1. **Start the System**  
+   - Navigate to `http://localhost:5000` in your browser to interact with the system.
 
-### Access the User Interface
-- Once started, navigate to `http://localhost:5000` in your browser to interact with the system.
-- Provide Natural Language Commands
-  - Use the interface to input commands like "survey area" or "capture images of an object."
-- Analyze Mission Data
-  - Output data is saved in mission-specific directories within the project folder.
+2. **Provide Natural Language Commands**  
+   - Use the interface to input commands like:
+     - "Survey area"  
+     - "Capture images of an object"  
+
+3. **Analyze Mission Data**  
+   - Output data is saved in mission-specific directories within the project folder.
   
 ---
 
