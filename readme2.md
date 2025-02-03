@@ -96,7 +96,7 @@ The system can be run with the following options to control specific components:
 
 - `--llm_model_name` or `-l`: Name of the language model (default: `deepseek-r1:8b`).
 - `--vlm_model_name` or `-v`: Name of the vision model (default: `llama3.2-vision`).
-- `--api_url` or `-a`: API endpoint for the LLM (default: `http://localhost:5000`).
+- `----interface_port` or `-p`: Port on which the web interface runs (default: `http://localhost:5000`).
 - `--vlm_api_url` or `-va`: API endpoint for the VLM (default: `http://localhost:8889`).
 - `--llm_api_url` or `-la`: API endpoint for the Ollama LLM (default: `http://localhost:8888`).
 - `--components` or `-c`: Choose which components to start (`qgroundcontrol`, `ollama`, `image_server`, or `all` as default).
@@ -133,7 +133,7 @@ python3 start_system.py -c qgroundcontrol,image_server
 ```
 
 ### Access the User Interface
-Once started, navigate to `http://localhost:8080` in your browser to interact with the system.
+Once started, navigate to `http://localhost:5000` in your browser to interact with the system.
 
 ### Provide Natural Language Commands
 Use the interface to input commands like "survey area" or "capture images of an object."
