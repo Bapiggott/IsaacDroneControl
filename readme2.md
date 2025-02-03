@@ -88,34 +88,58 @@ Follow the [Pegasus Simulator Installation Guide](https://pegasussimulator.githu
 Confirm all dependencies and software are correctly installed.
 
 ---
-
 ## 🚀 Directions to Run the Project
 
-1. **Start QGroundControl**
+### Command-Line Arguments
+
+The system can be run with the following options to control specific components:
+
+- `--llm_model_name` or `-l`: Name of the language model (default: `deepseek-r1:8b`).
+- `--vlm_model_name` or `-v`: Name of the vision model (default: `llama3.2-vision`).
+- `--api_url` or `-a`: API endpoint for the LLM (default: `http://localhost:5000`).
+- `--vlm_api_url` or `-va`: API endpoint for the VLM (default: `http://localhost:8889`).
+- `--llm_api_url` or `-la`: API endpoint for the Ollama LLM (default: `http://localhost:8888`).
+- `--components` or `-c`: Choose which components to start (`qgroundcontrol`, `ollama`, `image_server`, or `all` as default).
+
+### Example Commands
+
+#### Run IsaacSim Environment with Pegasus
+Before starting the main components, ensure the Isaac Sim world is running:
 ```bash
-chmod +x ./QGroundControl.AppImage
-./QGroundControl.AppImage
+ISAACSIM_PYTHON isaac_sim_world.py
 ```
 
-2. **Run IsaacSim Environment with Pegasus**
+#### Start All Components
 ```bash
-ISAACSIM_PYTHON examples/4_python_single_vehicle.py
+python3 start_system.py --components=all
 ```
 
-3. **Start System Components**
+or
+
 ```bash
-./start_system.sh --components=image_server,ollama_llm_server,ui_prompt --default=all
+python3 start_system.py -c all
 ```
 
-4. **Access the User Interface**
-Navigate to `http://localhost:8080` in your web browser to access the UI.
+#### Start Specific Components
+To start only specific components like QGroundControl and the Image Server:
+```bash
+python3 start_system.py --components=qgroundcontrol,image_server
+```
 
-5. **Provide Natural Language Commands**
+or
+
+```bash
+python3 start_system.py -c qgroundcontrol,image_server
+```
+
+### Access the User Interface
+Once started, navigate to `http://localhost:8080` in your browser to interact with the system.
+
+### Provide Natural Language Commands
 Use the interface to input commands like "survey area" or "capture images of an object."
 
-6. **Analyze Mission Data**
+### Analyze Mission Data
 Output data is saved in mission-specific directories within the project folder.
-
 ---
 
 ## 🎯 Expected Results
