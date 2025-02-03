@@ -1,6 +1,6 @@
 # LLM Agent for Drone Control
 
-[![PX4-Autopilot 1.14.3](https://img.shields.io/badge/PX4-Autopilot-windows--1.14.3.svg)]([[https://www.microsoft.com/en-us/](https://discuss.ardupilot.org/t/copter-4-4-0-released/105233](https://docs.px4.io/main/en/releases/1.14.html)))
+[![PX4-Autopilot 1.14.3](https://img.shields.io/badge/PX4-Autopilot-windows--1.14.3.svg)](https://discuss.ardupilot.org/t/copter-4-4-0-released/105233](https://docs.px4.io/main/en/releases/1.14.html)
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
 [![QGroundControl](https://img.shields.io/badge/Controls-QGroundControl--3-yellow.svg)](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/quick_start.html)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
