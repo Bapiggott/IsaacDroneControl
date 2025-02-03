@@ -45,6 +45,10 @@
 
 ## 📐 System Architecture
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+  <div style="flex: 1;">
+
 ```mermaid
 graph TD;
   A[User Command] -->|Processed by LLM| B[LLM Module];
@@ -52,6 +56,18 @@ graph TD;
   C -->|Sends Instructions| D[PX4 Controller];
   D -->|Executes Drone Actions| E[Flight Feedback Loop];
 ```
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <p>The system architecture involves several interconnected components working seamlessly together:</p>
+    <ul>
+      <li><strong>User Input Layer:</strong> Receives natural language commands from the user.</li>
+      <li><strong>LLM Processing Unit:</strong> Interprets and translates commands into actionable tasks.</li>
+      <li><strong>Data Integration Module:</strong> Integrates sensor and vision data into the command processing pipeline.</li>
+      <li><strong>Execution Layer:</strong> Converts processed commands into PX4-compatible instructions and executes them.</li>
+      <li><strong>Feedback Loop:</strong> Collects and processes data from sensors to refine ongoing operations.</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
