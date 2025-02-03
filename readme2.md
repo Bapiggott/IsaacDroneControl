@@ -143,11 +143,13 @@ Output data is saved in mission-specific directories within the project folder.
 ## 👨‍💻 Contributors
 
 - **Brett Piggott** - [GitHub](https://github.com/Bapiggott)
+- **The rest of our team...**
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under...
+<!--the MIT License. See the LICENSE file for details.
 
-![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)
+![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)-->
