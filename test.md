@@ -1,6 +1,6 @@
 # 🚀 LLM Agent for Drone Control
 
-![Banner](https://via.placeholder.com/1200x300.png?text=LLM+Agent+for+Drone+Control)
+![Banner]([https://via.placeholder.com/1200x300.png?text=LLM+Agent+for+Drone+Control](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FPegasusSimulator%2FPegasusSimulator&psig=AOvVaw39c6CNqXe7Smjg5-_ppKNn&ust=1738655747548000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjt7cSDp4sDFQAAAAAdAAAAABAI))
 
 [![PX4-Autopilot 1.14.3](https://img.shields.io/badge/PX4-Autopilot--1.14.3-green.svg)](https://docs.px4.io/main/en/releases/1.14.html)
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
