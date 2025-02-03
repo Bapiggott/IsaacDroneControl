@@ -29,7 +29,6 @@
 7. [🎥 Demo Video](#-demo-video)
 8. [👨‍💻 Contributors](#-contributors)
 9. [📜 License](#-license)
-
 <details>
   
 ---
