@@ -59,8 +59,8 @@ The system architecture involves several interconnected components working seaml
 <br clear="left">
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-  <div style="flex: 1;">
+  <div style="flex: 0.5;">
+  <div style="flex: 0.5;">
 
 ```mermaid
 graph TD;
