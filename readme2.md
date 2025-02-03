@@ -62,13 +62,6 @@ The system translates natural language instructions into mission commands that e
   <div style="flex: 1;">
   <div style="flex: 1;">
 
-```mermaid
-graph LR;
-  A[User Command] -->|Processed by LLM| B[LLM Module];
-  B -->|Generates Tasks| C[Data Integration];
-  C -->|Sends Instructions| D[PX4 Controller];
-  D -->|Executes Drone Actions| E[Flight Feedback Loop];
-```
   </div>
   <div style="flex: 1; padding-left: 20px;">
     <p>The system architecture involves several interconnected components working seamlessly together:</p>
@@ -80,6 +73,14 @@ graph LR;
       <li><strong>Feedback Loop:</strong> Collects and processes data from sensors to refine ongoing operations.</li>
     </ul>
   </div>
+  
+```mermaid
+graph LR;
+  A[User Command] -->|Processed by LLM| B[LLM Module];
+  B -->|Generates Tasks| C[Data Integration];
+  C -->|Sends Instructions| D[PX4 Controller];
+  D -->|Executes Drone Actions| E[Flight Feedback Loop];
+```
 </div>
 
 ---
