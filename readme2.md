@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/22.04/)
 
-<img align="left" height="200" src="a6714282-26aa-4f7d-8e7d-8a8a49092bc9.jpg">
+<img align="center" height="500" src="a6714282-26aa-4f7d-8e7d-8a8a49092bc9.jpg">
 
 > **Next-generation AI-powered drone control.**
 > A fully autonomous drone system integrating **LLMs**, **Computer Vision**, and **PX4 Autopilot**.
