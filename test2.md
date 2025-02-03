@@ -112,7 +112,7 @@ Confirm all dependencies and software are correctly installed.
 
 ## 🚀 Directions to Run the Project
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Ensure all dependencies are installed before running the system. Missing dependencies may cause failures.
 
 ### 🔧 Command-Line Options
@@ -130,7 +130,7 @@ The system can be configured with the following command-line arguments:
 
 ### 1. Start Isaac Sim World
 
-> [!NOTE]  
+> [!NOTE]
 > The Isaac Sim world must be running before launching other components.
 
 ```bash
