@@ -7,10 +7,19 @@
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/22.04/)
 
+> **Next-generation AI-powered drone control.**
+> A fully autonomous drone system integrating **LLMs**, **Computer Vision**, and **PX4 Autopilot**.
+
+🔹 **Natural Language Command Execution**
+🔹 **Real-time Sensor Integration**
+🔹 **Simulation & Physical Deployment Support**
+
 ---
 
 ## 📜 Table of Contents
 
+<details>
+  <summary>🔍 Click to Expand</summary>
 1. [🌟 Project Overview](#-project-overview)
 2. [📐 System Architecture](#-system-architecture)
 3. [🛠️ Installation Guide](#%EF%B8%8F-installation-guide)
@@ -21,6 +30,8 @@
 8. [👨‍💻 Contributors](#-contributors)
 9. [📜 License](#-license)
 
+<details>
+  
 ---
 
 ## 🌟 Project Overview
@@ -40,17 +51,31 @@ The system translates natural language instructions into mission commands that e
 ---
 
 ## 📐 System Architecture
+<br clear="left">
 
-The system architecture involves several interconnected components working seamlessly together:
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+  <div style="flex: 1;">
 
-![System Architecture Diagram](https://via.placeholder.com/1200x600.png?text=System+Architecture+Diagram)
-
-- **User Input Layer:** Receives natural language commands from the user.
-- **LLM Processing Unit:** Interprets and translates commands into actionable tasks.
-- **Data Integration Module:** Integrates sensor and vision data into the command processing pipeline.
-- **Execution Layer:** Converts processed commands into PX4-compatible instructions and executes them.
-- **Feedback Loop:** Collects and processes data from sensors to refine ongoing operations.
-
+```mermaid
+graph LR;
+  A[User Command] -->|Processed by LLM| B[LLM Module];
+  B -->|Generates Tasks| C[Data Integration];
+  C -->|Sends Instructions| D[PX4 Controller];
+  D -->|Executes Drone Actions| E[Flight Feedback Loop];
+```
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <p>The system architecture involves several interconnected components working seamlessly together:</p>
+    <ul>
+      <li><strong>User Input Layer:</strong> Receives natural language commands from the user.</li>
+      <li><strong>LLM Processing Unit:</strong> Interprets and translates commands into actionable tasks.</li>
+      <li><strong>Data Integration Module:</strong> Integrates sensor and vision data into the command processing pipeline.</li>
+      <li><strong>Execution Layer:</strong> Converts processed commands into PX4-compatible instructions and executes them.</li>
+      <li><strong>Feedback Loop:</strong> Collects and processes data from sensors to refine ongoing operations.</li>
+    </ul>
+  </div>
+</div>
 ---
 
 ## 🛠️ Installation Guide
@@ -75,19 +100,15 @@ chmod +x omniverse-launcher-linux.AppImage
 ./omniverse-launcher-linux.AppImage
 ```
 
-### 4. Install ROS 2 Humble
-🤖 Install ROS 2 Humble for seamless robot operating system integration.
-📌 Follow the official [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for step-by-step instructions.
+### 4. Install Required Software
 
-### 5. Install NVIDIA ISAAC SIM
-🎮 Set up NVIDIA ISAAC SIM to simulate realistic drone environments.
-📌 Follow the official [ISAAC SIM Installation Guide](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html) to get started.
+| Software | Description | Installation Guide |
+|----------|-------------|------------------|
+| **ROS 2 Humble** | 🤖 Seamless robot operating system integration. | [Install Here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) |
+| **NVIDIA ISAAC SIM** | 🎮 Simulate realistic drone environments. | [Install Here](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html) |
+| **Pegasus Simulator** | ✈️ High-fidelity drone flight simulations. | [Install Here](https://pegasussimulator.github.io/PegasusSimulator/source/setup/installation.html#installing-the-pegasus-simulator) |
 
-### 6. Install Pegasus Simulator
-✈️ Configure the Pegasus Simulator for high-fidelity drone flight simulations.
-📌 Follow the [Pegasus Simulator Installation Guide](https://pegasussimulator.github.io/PegasusSimulator/source/setup/installation.html#installing-the-pegasus-simulator) to install and configure Pegasus.
-
-### 7. Verify Setup
+### 4. Verify Setup
 Confirm all dependencies and software are correctly installed.
 
 ---
@@ -96,13 +117,14 @@ Confirm all dependencies and software are correctly installed.
 ### Command-Line Arguments
 
 The system can be run with the following options to control specific components:
-
-- `--llm_model_name` or `-l`: Name of the language model (default: `deepseek-r1:8b`).
-- `--vlm_model_name` or `-v`: Name of the vision model (default: `llama3.2-vision`).
-- `----interface_port` or `-p`: Port on which the web interface runs (default: `http://localhost:5000`).
-- `--vlm_api_url` or `-va`: API endpoint for the VLM (default: `http://localhost:8889`).
-- `--llm_api_url` or `-la`: API endpoint for the Ollama LLM (default: `http://localhost:8888`).
-- `--components` or `-c`: Choose which components to start (`qgroundcontrol`, `ollama`, `image_server`, or `all` as default).
+| Argument | Short | Description | Default |
+|----------|-------|-------------|---------|
+| `--llm_model_name` | `-l` | Name of the language model | `deepseek-r1:8b` |
+| `--vlm_model_name` | `-v` | Name of the vision model | `llama3.2-vision` |
+| `--interface_port` | `-p` | Port on which the web interface runs | `http://localhost:5000` |
+| `--vlm_api_url` | `-va` | API endpoint for the VLM | `http://localhost:8889` |
+| `--llm_api_url` | `-la` | API endpoint for the Ollama LLM | `http://localhost:8888` |
+| `--components` | `-c` | Choose which components to start (`qgroundcontrol`, `ollama`, `image_server`, or `all`) | `all` |
 
 ### Example Commands
 
@@ -155,9 +177,14 @@ Output data is saved in mission-specific directories within the project folder.
 
 ## 🔍 Troubleshooting
 
-- Verify all dependencies are installed correctly.
-- Ensure the PX4 simulation environment is running.
-- Check log files in `logs/` for errors.
+<details>
+  <summary>🛠️ Click for Common Issues & Fixes</summary>
+
+- **Component Not Starting?** Ensure dependencies are installed and verify configurations.
+- **Simulation Lag?** Allocate more system resources or lower rendering settings.
+- **Interface Not Loading?** Confirm `--interface_port` is correctly set.
+
+</details>
 
 ---
 
