@@ -45,6 +45,19 @@
 
 ## 📐 System Architecture
 
+<img src="https://via.placeholder.com/400x300.png?text=System+Architecture+Diagram" align="left" width="400" style="margin-right: 20px; margin-bottom: 10px;">
+
+### Overview
+The system architecture involves several interconnected components working seamlessly together:
+
+- **User Input Layer:** Receives natural language commands from the user.
+- **LLM Processing Unit:** Interprets and translates commands into actionable tasks.
+- **Data Integration Module:** Integrates sensor and vision data into the command processing pipeline.
+- **Execution Layer:** Converts processed commands into PX4-compatible instructions and executes them.
+- **Feedback Loop:** Collects and processes data from sensors to refine ongoing operations.
+
+<br clear="left">
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
   <div style="flex: 1;">
