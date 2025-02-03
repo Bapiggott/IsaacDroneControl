@@ -58,7 +58,7 @@ The system architecture involves several interconnected components working seaml
 
 <br clear="left">
 
-<div style="display: flex; align-items: center;">
+<div align="left" width="400" style="margin-right: 20px; margin-bottom: 10px;">
   <div style="flex: 0.5;">
   <div style="flex: 0.5;">
 
