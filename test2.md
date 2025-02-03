@@ -132,6 +132,7 @@ The system can be configured with the following command-line arguments:
 
 > [!NOTE]  
 > The Isaac Sim world must be running before launching other components.
+
 ```bash
 ISAACSIM_PYTHON isaac_sim_world.py
 ```
