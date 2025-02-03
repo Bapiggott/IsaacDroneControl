@@ -154,13 +154,12 @@ python3 start_system.py --components=qgroundcontrol,image_server
 ```
 
 ### Access the User Interface
-Once started, navigate to `http://localhost:5000` in your browser to interact with the system.
-
-### Provide Natural Language Commands
-Use the interface to input commands like "survey area" or "capture images of an object."
-
-### Analyze Mission Data
-Output data is saved in mission-specific directories within the project folder.
+- Once started, navigate to `http://localhost:5000` in your browser to interact with the system.
+- Provide Natural Language Commands
+  - Use the interface to input commands like "survey area" or "capture images of an object."
+- Analyze Mission Data
+  - Output data is saved in mission-specific directories within the project folder.
+  
 ---
 
 ## 🎯 Expected Results
