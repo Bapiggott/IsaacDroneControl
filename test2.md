@@ -112,7 +112,7 @@ Confirm all dependencies and software are correctly installed.
 
 ## 🚀 Directions to Run the Project
 
-> [!IMPORTANT]
+{: .important }
 > Ensure all dependencies are installed before running the system. Missing dependencies may cause failures.
 
 ### 🔧 Command-Line Options
