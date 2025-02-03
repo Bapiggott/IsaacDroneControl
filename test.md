@@ -58,10 +58,12 @@ The system architecture involves several interconnected components working seaml
 
 <br clear="left">
 
-<div align="left" width="400" style="margin-right: 20px; margin-bottom: 10px;">
-   
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+  <div style="flex: 1;">
+
 ```mermaid
-graph TD;
+graph LR;
   A[User Command] -->|Processed by LLM| B[LLM Module];
   B -->|Generates Tasks| C[Data Integration];
   C -->|Sends Instructions| D[PX4 Controller];
