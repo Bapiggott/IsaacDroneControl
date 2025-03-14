@@ -207,4 +207,3 @@ This project is licensed under...-->
 <!--the MIT License. See the LICENSE file for details.
 
 ![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)-->
--->
