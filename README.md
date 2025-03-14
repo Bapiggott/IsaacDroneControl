@@ -186,9 +186,9 @@ python3 start_system.py --components=qgroundcontrol,image_server
 
 </details>
 
----
 
-## 🎥 Demo Video
+
+<!---## 🎥 Demo Video
 
 [![Watch the Demo](https://via.placeholder.com/800x400.png?text=Click+to+Watch+Demo)](https://example.com/demo)
 
@@ -203,7 +203,8 @@ python3 start_system.py --components=qgroundcontrol,image_server
 
 ## 📜 License
 
-This project is licensed under...
+This project is licensed under...-->
 <!--the MIT License. See the LICENSE file for details.
 
 ![Footer Image](https://via.placeholder.com/1200x200.png?text=Thank+You+for+Visiting)-->
+-->
